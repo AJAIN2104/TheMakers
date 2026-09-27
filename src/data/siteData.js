@@ -7,20 +7,15 @@ export const instagramPosts = [
 
 export const schools = [
   { name: "Shiv Nadar School", location: "Faridabad" },
+  { name: "Shiv Nadar School", location: "Noida" },
   { name: "Vasant Valley School", location: "Delhi" },
   { name: "Genesis Global School", location: "Greater Noida" },
-  { name: "The Infinity School", location: "Delhi NCR" },
-  { name: "The British School", location: "Delhi" },
-  { name: "Step By Step School", location: "Delhi NCR" },
-  { name: "Mothers International School", location: "Delhi" },
-  { name: "Lotus Valley School", location: "Delhi NCR" },
-  { name: "Bal Bharti Schools", location: "India" },
-  { name: "Blue Bell Schools", location: "Delhi NCR" },
-  { name: "The Heritage School", location: "Delhi NCR" },
-  { name: "Billabong High International School", location: "India" },
-  { name: "German Embassy School", location: "Delhi" },
-  { name: "KR Mangalam Schools", location: "Delhi NCR" },
-  { name: "HDFC Schools", location: "India" }
+  { name: "Learners International School", location: "Greater Noida" },
+  { name: "GD Goenka School", location: "Delhi NCR" },
+  { name: "Heritage Xperiential Learning School", location: "Gurgaon " },
+  { name: "Heritage Xperiential Learning School", location: "Noida" },
+  { name: "Heritage Xperiential Learning School", location: " Gurgaon sector" },
+  { name: "KR Mangalam School", location: "Greater Noida" },
 ];
 
 export const curriculum = [

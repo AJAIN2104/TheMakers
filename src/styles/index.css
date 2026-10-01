@@ -79,3 +79,8 @@
   opacity: 0.55;
   max-width: 280px;
 }
+.brand-logo {
+  width: 150px;
+  height: auto;
+  display: block;
+}

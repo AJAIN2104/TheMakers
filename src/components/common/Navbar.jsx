@@ -16,8 +16,11 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <Link to="/" className="brand" onClick={() => setOpen(false)}>
-        <span className="brand-mark">TM</span>
-        <span>THE MAKERS</span>
+        <img
+          src="/images/logo.png"
+          alt="The Makers"
+          className="brand-logo"
+        />
       </Link>
 
       <nav className={`nav-links ${open ? "open" : ""}`}>
@@ -26,12 +29,21 @@ export default function Navbar() {
             {label}
           </NavLink>
         ))}
-        <Link className="nav-cta" to="/contact" onClick={() => setOpen(false)}>
+
+        <Link
+          className="nav-cta"
+          to="/contact"
+          onClick={() => setOpen(false)}
+        >
           Enquire Now
         </Link>
       </nav>
 
-      <button className="menu-btn" onClick={() => setOpen(!open)} aria-label="Toggle menu">
+      <button
+        className="menu-btn"
+        onClick={() => setOpen(!open)}
+        aria-label="Toggle menu"
+      >
         {open ? <X /> : <Menu />}
       </button>
     </header>

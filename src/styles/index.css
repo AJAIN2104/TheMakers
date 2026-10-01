@@ -80,7 +80,8 @@
   max-width: 280px;
 }
 .brand-logo {
-  width: 150px;
-  height: auto;
+  width: 120px;
+  height: 45px;
+  object-fit: contain;
   display: block;
 }
